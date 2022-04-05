@@ -55,3 +55,28 @@ console.log(typeof and);
 let or = logic1 || logic2 ;
 console.log(or);
 /* ------- Sring */
+
+let string1 = 'JavaScrip' ;
+console.log(typeof string1);
+console.log(string1[0]);
+console.log(string1[1]);
+console.log(string1[-1]);
+console.log(string1[-2]);
+console.log(string1[4]);
+console.log(string1[5]);
+console.log(string1[1]);
+console.log(string1.length);
+console.log(string1.includes('v'));
+
+let upperCase = string1.replace('a','A');
+console.log(upperCase)
+
+let sentence = 'we love JavaScrip' ;
+const words = sentence.split(' ');
+console.log(words)
+
+let str1 = 'fri';
+let str2 = 'day';
+console.log(str1 + str2);
+
+/* --------- List ----- */
